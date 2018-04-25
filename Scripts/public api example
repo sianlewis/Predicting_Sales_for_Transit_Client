@@ -1,0 +1,1594 @@
+{
+  "data": {
+    "mobilityScore": {
+      "latitude": 38.90498,
+      "longitude": -77.03966,
+      "score": 100,
+      "timestamp": "2018-03-16T04:48:12+00:00",
+      "algorithm_version": "v1.5.0-0-ga317691",
+      "scoreBreakdown": {
+        "masstransit": "78%",
+        "ridehailing": "11%",
+        "bikeshare": "8%",
+        "carshare": "3%"
+      },
+      "badgeURL": "http://mobilityscore.transitscreen.io/api/v1/badges/100.svg?coordinates=38.90498,-77.03966&key=7oKXxLIdCNEY62LW",
+      "mapURL": "https://transitscreen.com/mobilityscore?lat=38.90498&lon=-77.03966",
+      "scoreLabel": "Excellent Mobility!",
+      "scoreDescription": "It’s an ideal place to be, transportation-wise.",
+      "modes": {
+        "subway": {
+          "friendlyName": "Subway",
+          "logo": "/svg/mode/subway.svg",
+          "agencies": [
+            {
+              "agencyShortName": "Metrorail",
+              "agencyColor": "#105cb6",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/metrorail.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/metrorail.svg"
+            }
+          ]
+        },
+        "bus": {
+          "friendlyName": "Bus",
+          "logo": "/svg/mode/bus.svg",
+          "agencies": [
+            {
+              "agencyShortName": "Metrobus",
+              "agencyColor": "#105cb6",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/metrobus.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/metrobus.svg"
+            },
+            {
+              "agencyShortName": "MTA Bus",
+              "agencyColor": "#0d50a6",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/mtamaryland-bus.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/mtamaryland-bus.svg"
+            },
+            {
+              "agencyShortName": "PRTC",
+              "agencyColor": "#009999",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/prtc.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/prtc.svg"
+            },
+            {
+              "agencyShortName": "Circulator",
+              "agencyColor": "#CC3333",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/dc-circulator.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/dc-circulator.svg"
+            }
+          ]
+        },
+        "carshare": {
+          "friendlyName": "Carshare",
+          "logo": "/svg/mode/carshare.svg",
+          "agencies": [
+            {
+              "agencyShortName": "Zipcar",
+              "agencyColor": "#63b041",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/zipcar.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/zipcar.svg"
+            },
+            {
+              "agencyShortName": "car2go",
+              "agencyColor": "#009be0",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/car2go.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/car2go.svg"
+            }
+          ]
+        },
+        "bikeshare": {
+          "friendlyName": "Bikeshare",
+          "logo": "/svg/mode/bikeshare.svg",
+          "agencies": [
+            {
+              "agencyShortName": "Capital Bikeshare",
+              "agencyColor": "#ff0000",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/cabi.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/cabi.svg"
+            }
+          ]
+        },
+        "ridehailing": {
+          "friendlyName": "Ridehailing",
+          "logo": "/svg/mode/ridehailing.svg",
+          "agencies": [
+            {
+              "agencyShortName": "Lyft",
+              "agencyColor": "#ea0b8c",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/lyft.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/lyft.svg"
+            },
+            {
+              "agencyShortName": "Uber",
+              "agencyColor": "#040503",
+              "agencyLogoLight": "/api/v1/agencies/logos/light/uber.svg",
+              "agencyLogoDark": "/api/v1/agencies/logos/dark/uber.svg"
+            }
+          ]
+        }
+      }
+    },
+    "geojson": {
+      "54": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Capital Bikeshare",
+          "stopName": "17th & K St NW",
+          "stopId": "54",
+          "transportationType": "bikeshare"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.03863,
+            38.90276
+          ]
+        }
+      },
+      "79": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Capital Bikeshare",
+          "stopName": "18th & M St NW",
+          "stopId": "79",
+          "transportationType": "bikeshare"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.041779,
+            38.905067
+          ]
+        }
+      },
+      "136": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Capital Bikeshare",
+          "stopName": "Rhode Island & Connecticut Ave NW",
+          "stopId": "136",
+          "transportationType": "bikeshare"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039802,
+            38.905996
+          ]
+        }
+      },
+      "1407": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "PRTC",
+          "stopName": "I St @ 18th St NW",
+          "stopId": "1407",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "D100",
+              "direction": "State Department / Washington DC",
+              "frequency": 0.6249999999999999
+            },
+            {
+              "routeName": "G100",
+              "direction": "Gainesville / Cushing Lot",
+              "frequency": 0.2023809523809524
+            },
+            {
+              "routeName": "L100",
+              "direction": "State Department / Washington DC",
+              "frequency": 0.22023809523809518
+            },
+            {
+              "routeName": "M100",
+              "direction": "Manassas / Portsmouth Lot",
+              "frequency": 0.17261904761904764
+            },
+            {
+              "routeName": "L100",
+              "direction": "Pentagon / State Department / Washington DC",
+              "frequency": 0.05952380952380952
+            },
+            {
+              "routeName": "M100",
+              "direction": "Manassas / Portsmouth Lot",
+              "frequency": 0
+            },
+            {
+              "routeName": "D100",
+              "direction": "State Department / Washington DC",
+              "frequency": 0
+            },
+            {
+              "routeName": "L100",
+              "direction": "Pentagon / State Department / Washington DC",
+              "frequency": 0
+            },
+            {
+              "routeName": "L100",
+              "direction": "State Department / Washington DC",
+              "frequency": 0
+            },
+            {
+              "routeName": "G100",
+              "direction": "Gainesville / Cushing Lot",
+              "frequency": 0
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.041364,
+            38.901343
+          ]
+        }
+      },
+      "1504": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "PRTC",
+          "stopName": "H St NW @  Jackson Pl NW",
+          "stopId": "1504",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "D100",
+              "direction": "Dale City Lot via PRTC",
+              "frequency": 0.4166666666666666
+            },
+            {
+              "routeName": "L100",
+              "direction": "Lake Ridge",
+              "frequency": 0.2976190476190476
+            },
+            {
+              "routeName": "G100",
+              "direction": "Washington DC / L'Enfant Plaza",
+              "frequency": 0.17261904761904764
+            },
+            {
+              "routeName": "M100",
+              "direction": "Washington DC / L'Enfant Plaza",
+              "frequency": 0.17261904761904762
+            },
+            {
+              "routeName": "L100",
+              "direction": "Pentagon / Lake Ridge",
+              "frequency": 0.14880952380952384
+            },
+            {
+              "routeName": "D100",
+              "direction": "Pentagon / Horner Rd / Potomac Mills / PRTC",
+              "frequency": 0.08333333333333334
+            },
+            {
+              "routeName": "D100",
+              "direction": "Pentagon / Dale City Lot via PRTC",
+              "frequency": 0.02976190476190476
+            },
+            {
+              "routeName": "L100",
+              "direction": "Pentagon / Lake Ridge",
+              "frequency": 0
+            },
+            {
+              "routeName": "L100",
+              "direction": "Lake Ridge",
+              "frequency": 0
+            },
+            {
+              "routeName": "D100",
+              "direction": "Dale City Lot via PRTC",
+              "frequency": 0
+            },
+            {
+              "routeName": "D100",
+              "direction": "Pentagon / Horner Rd / Potomac Mills / ends at PRTC",
+              "frequency": 0
+            },
+            {
+              "routeName": "D100",
+              "direction": "Pentagon / Dale City Lot via PRTC",
+              "frequency": 0
+            },
+            {
+              "routeName": "M100",
+              "direction": "Washington DC / L'Enfant Plaza",
+              "frequency": 0
+            },
+            {
+              "routeName": "G100",
+              "direction": "Washington DC / L'Enfant Plaza",
+              "frequency": 0
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.037454,
+            38.900203
+          ]
+        }
+      },
+      "11584": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "K ST & 17TH ST/CONNECTICUT NW wb",
+          "stopId": "11584",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "820",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.44642857142857123
+            },
+            {
+              "routeName": "715",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.35714285714285693
+            },
+            {
+              "routeName": "830",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.386904761904762
+            },
+            {
+              "routeName": "840",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.2678571428571428
+            },
+            {
+              "routeName": "725",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.17857142857142866
+            },
+            {
+              "routeName": "810",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.14880952380952384
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039246,
+            38.902626
+          ]
+        }
+      },
+      "11593": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "K ST & 17TH ST NW eb",
+          "stopId": "11593",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "715",
+              "direction": "GOLDEN BEACH PARK & RIDE",
+              "frequency": 0.35714285714285704
+            },
+            {
+              "routeName": "830",
+              "direction": "SUNDERLAND / DUNKIRK",
+              "frequency": 0.386904761904762
+            },
+            {
+              "routeName": "820",
+              "direction": "PG EQUESTRIAN CENTER",
+              "frequency": 0.23809523809523808
+            },
+            {
+              "routeName": "840",
+              "direction": "PRINCE FREDERICK / ST LEONARD",
+              "frequency": 0.23809523809523808
+            },
+            {
+              "routeName": "725",
+              "direction": "CALIFORNIA",
+              "frequency": 0.17857142857142858
+            },
+            {
+              "routeName": "820",
+              "direction": "PG EQUESTRIAN CENTER / NORTH BEACH",
+              "frequency": 0.1785714285714286
+            },
+            {
+              "routeName": "810",
+              "direction": "PINDELL",
+              "frequency": 0.14880952380952384
+            },
+            {
+              "routeName": "715",
+              "direction": "CALIFORNIA",
+              "frequency": 0.05952380952380952
+            },
+            {
+              "routeName": "820",
+              "direction": "PG EQUESTRIAN CENTER / ANNE ARUNDEL / NORTH BEACH",
+              "frequency": 0.05952380952380952
+            },
+            {
+              "routeName": "840",
+              "direction": "DUNKIRK / SUNDERLAND / PRINCE FREDERICK / ST LEONARD",
+              "frequency": 0.05952380952380952
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039338,
+            38.902553
+          ]
+        }
+      },
+      "11619": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "19TH ST & K ST NW fs sb",
+          "stopId": "11619",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "630",
+              "direction": "LA PLATA",
+              "frequency": 0.2380952380952381
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.043328,
+            38.902219
+          ]
+        }
+      },
+      "11712": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "K ST & 18TH ST NW wb",
+          "stopId": "11712",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "620",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.3571428571428571
+            },
+            {
+              "routeName": "650",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.2976190476190474
+            },
+            {
+              "routeName": "220",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.35714285714285715
+            },
+            {
+              "routeName": "640",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.23809523809523817
+            },
+            {
+              "routeName": "260",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.17857142857142863
+            },
+            {
+              "routeName": "240",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.14880952380952384
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.041517,
+            38.902593
+          ]
+        }
+      },
+      "11717": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "K ST & 18TH ST NW eb",
+          "stopId": "11717",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "620",
+              "direction": "US 301 PARK & RIDE",
+              "frequency": 0.357142857142857
+            },
+            {
+              "routeName": "650",
+              "direction": "LA PLATA",
+              "frequency": 0.32738095238095216
+            },
+            {
+              "routeName": "220",
+              "direction": "ANNAPOLIS",
+              "frequency": 0.2083333333333334
+            },
+            {
+              "routeName": "640",
+              "direction": "WALDORF",
+              "frequency": 0.23809523809523803
+            },
+            {
+              "routeName": "260",
+              "direction": "SEVERNA PARK",
+              "frequency": 0.1785714285714286
+            },
+            {
+              "routeName": "240",
+              "direction": "KENT ISLAND",
+              "frequency": 0.1785714285714286
+            },
+            {
+              "routeName": "220",
+              "direction": "HARRY S TRUMAN PARK & RIDE",
+              "frequency": 0.14880952380952384
+            },
+            {
+              "routeName": "220",
+              "direction": "KENT ISLAND",
+              "frequency": 0.05952380952380952
+            },
+            {
+              "routeName": "620",
+              "direction": "WALDORF",
+              "frequency": 0.05952380952380952
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.041622,
+            38.902521
+          ]
+        }
+      },
+      "11790": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "16TH ST & M ST NW",
+          "stopId": "11790",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "315",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.2976190476190475
+            },
+            {
+              "routeName": "325",
+              "direction": "WASHINGTON DC / METRO CENTER",
+              "frequency": 0.0892857142857143
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.036435,
+            38.905728
+          ]
+        }
+      },
+      "11801": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "15TH ST & M/MASSACHUSETTS AVE NW mid nb",
+          "stopId": "11801",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "315",
+              "direction": "THE MALL IN COLUMBIA",
+              "frequency": 0.20833333333333343
+            },
+            {
+              "routeName": "315",
+              "direction": "LOTTE PLAZA",
+              "frequency": 0.08928571428571427
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.03438,
+            38.906111
+          ]
+        }
+      },
+      "11820": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "19TH ST & M ST NW sb",
+          "stopId": "11820",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "305",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.32738095238095244
+            },
+            {
+              "routeName": "325",
+              "direction": "WASHINGTON DC / CAPITOL HILL",
+              "frequency": 0.1190476190476191
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.043328,
+            38.905713
+          ]
+        }
+      },
+      "11897": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "18TH ST & K ST NW nb",
+          "stopId": "11897",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "630",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.23809523809523808
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.04153,
+            38.902414
+          ]
+        }
+      },
+      "11898": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "18TH ST & M ST NW nb",
+          "stopId": "11898",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "305",
+              "direction": "COLUMBIA",
+              "frequency": 0.3571428571428568
+            },
+            {
+              "routeName": "345",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.20833333333333337
+            },
+            {
+              "routeName": "335",
+              "direction": "WASHINGTON DC",
+              "frequency": 0.20833333333333337
+            },
+            {
+              "routeName": "325",
+              "direction": "COLUMBIA",
+              "frequency": 0.11904761904761907
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.041518,
+            38.90563
+          ]
+        }
+      },
+      "12044": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "MTA Bus",
+          "stopName": "19TH ST & M ST NW sb",
+          "stopId": "12044",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "335",
+              "direction": "CLARKSVILLE",
+              "frequency": 0.20833333333333331
+            },
+            {
+              "routeName": "345",
+              "direction": "LONG GATE PARK & RIDE",
+              "frequency": 0.17857142857142852
+            },
+            {
+              "routeName": "345",
+              "direction": "CLARKSVILLE PARK & RIDE",
+              "frequency": 0.05952380952380952
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.043328,
+            38.905632
+          ]
+        }
+      },
+      "1001133": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "H ST & 17TH ST",
+          "stopId": "1001133",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "32",
+              "direction": "SOUTHERN AVE STATION",
+              "frequency": 1.4761904761904743
+            },
+            {
+              "routeName": "36",
+              "direction": "NAYLOR RD STATION",
+              "frequency": 1.327380952380951
+            },
+            {
+              "routeName": "33",
+              "direction": "FEDERAL TRIANGLE",
+              "frequency": 1.2857142857142843
+            },
+            {
+              "routeName": "30N",
+              "direction": "NAYLOR RD STATION",
+              "frequency": 0.82142857142857
+            },
+            {
+              "routeName": "30S",
+              "direction": "SOUTHERN AVE STATION",
+              "frequency": 0.8154761904761891
+            },
+            {
+              "routeName": "7Y",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.4285714285714285
+            },
+            {
+              "routeName": "39",
+              "direction": "NAYLOR RD STATION",
+              "frequency": 0.2857142857142857
+            },
+            {
+              "routeName": "37",
+              "direction": "ARCHIVES",
+              "frequency": 0.26190476190476186
+            },
+            {
+              "routeName": "11Y",
+              "direction": "MT VERNON",
+              "frequency": 0.11904761904761905
+            },
+            {
+              "routeName": "11Y",
+              "direction": "HUNTING POINT",
+              "frequency": 0.023809523809523808
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.040338,
+            38.900058
+          ]
+        }
+      },
+      "1001183": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "I ST & 17TH ST NW",
+          "stopId": "1001183",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "32",
+              "direction": "FOGGY BOTTOM STATION",
+              "frequency": 1.6547619047619022
+            },
+            {
+              "routeName": "33",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 1.363095238095237
+            },
+            {
+              "routeName": "36",
+              "direction": "FOGGY BOTTOM STATION",
+              "frequency": 1.2797619047619033
+            },
+            {
+              "routeName": "30N",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 0.815476190476189
+            },
+            {
+              "routeName": "30S",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 0.8214285714285701
+            },
+            {
+              "routeName": "39",
+              "direction": "FOGGY BOTTOM STATION",
+              "frequency": 0.2857142857142857
+            },
+            {
+              "routeName": "7Y",
+              "direction": "SOUTHERN TOWERS",
+              "frequency": 0.2857142857142857
+            },
+            {
+              "routeName": "37",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 0.2619047619047619
+            },
+            {
+              "routeName": "11Y",
+              "direction": "POTOMAC PARK",
+              "frequency": 0.19047619047619047
+            },
+            {
+              "routeName": "7Y",
+              "direction": "PENTAGON",
+              "frequency": 0.09523809523809523
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039066,
+            38.901426
+          ]
+        }
+      },
+      "1001193": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "17TH ST & I ST NW",
+          "stopId": "1001193",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "38B",
+              "direction": "BALLSTON",
+              "frequency": 2.1785714285714266
+            },
+            {
+              "routeName": "G8",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 2.2202380952380922
+            },
+            {
+              "routeName": "G8",
+              "direction": "AVONDALE",
+              "frequency": 1.9940476190476168
+            },
+            {
+              "routeName": "G8",
+              "direction": "RHODE ISLAND AVE STATION",
+              "frequency": 0.09523809523809523
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.038603,
+            38.901516
+          ]
+        }
+      },
+      "1001199": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "15TH ST NW & I ST NW & K ST NW",
+          "stopId": "1001199",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "80",
+              "direction": "MCPHERSON SQUARE",
+              "frequency": 0.8035714285714286
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.034477,
+            38.902015
+          ]
+        }
+      },
+      "1001229": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "K ST NW & 17TH ST NW",
+          "stopId": "1001229",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "38B",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 2.196428571428569
+            },
+            {
+              "routeName": "80",
+              "direction": "FORT TOTTEN",
+              "frequency": 1.8452380952380927
+            },
+            {
+              "routeName": "D6",
+              "direction": "STADIUM - ARMORY",
+              "frequency": 1.7202380952380927
+            },
+            {
+              "routeName": "16Y",
+              "direction": "MCPHERSON SQUARE",
+              "frequency": 0.619047619047619
+            },
+            {
+              "routeName": "S1",
+              "direction": "16TH & COLORADO",
+              "frequency": 0.369047619047619
+            },
+            {
+              "routeName": "D1",
+              "direction": "FRANKLIN SQUARE",
+              "frequency": 0.3154761904761905
+            },
+            {
+              "routeName": "D4",
+              "direction": "IVY CITY",
+              "frequency": 0.17261904761904767
+            },
+            {
+              "routeName": "D5",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.16666666666666666
+            },
+            {
+              "routeName": "D6",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.14285714285714285
+            },
+            {
+              "routeName": "3Y",
+              "direction": "MCPHERSON SQUARE",
+              "frequency": 0.16666666666666669
+            },
+            {
+              "routeName": "80",
+              "direction": "BROOKLAND",
+              "frequency": 0.07142857142857142
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039724,
+            38.902456
+          ]
+        }
+      },
+      "1001236": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "K ST NW & 18TH ST NW (MAIN)",
+          "stopId": "1001236",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "D5",
+              "direction": "SANGAMORE RD",
+              "frequency": 0.14285714285714285
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.04136,
+            38.90256
+          ]
+        }
+      },
+      "1001241": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "K ST NW & CONNECTICUT AVE NW (MAIN)",
+          "stopId": "1001241",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "80",
+              "direction": "KENNEDY CENTER",
+              "frequency": 1.89285714285714
+            },
+            {
+              "routeName": "D6",
+              "direction": "SIBLEY HOSPITAL",
+              "frequency": 1.7202380952380927
+            },
+            {
+              "routeName": "16Y",
+              "direction": "BARCROFT",
+              "frequency": 0.5714285714285714
+            },
+            {
+              "routeName": "3Y",
+              "direction": "EAST FALLS CHURCH STATION",
+              "frequency": 0.19047619047619047
+            },
+            {
+              "routeName": "D6",
+              "direction": "DUPONT CIRCLE",
+              "frequency": 0.1904761904761905
+            },
+            {
+              "routeName": "D4",
+              "direction": "DUPONT CIRCLE",
+              "frequency": 0.14880952380952378
+            },
+            {
+              "routeName": "D1",
+              "direction": "GLOVER PARK",
+              "frequency": 0.125
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039226,
+            38.902569
+          ]
+        }
+      },
+      "1001294": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "14TH ST & L ST",
+          "stopId": "1001294",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "52",
+              "direction": "LENFANT PLAZA STATION",
+              "frequency": 2.904761904761901
+            },
+            {
+              "routeName": "54",
+              "direction": "METRO CENTER",
+              "frequency": 2.482142857142855
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.032099,
+            38.903925
+          ]
+        }
+      },
+      "1001295": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "CONNECTICUT AVE NW & L ST NW",
+          "stopId": "1001295",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "42",
+              "direction": "GALLERY PLACE",
+              "frequency": 3.398809523809517
+            },
+            {
+              "routeName": "L2",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 1.8809523809523796
+            },
+            {
+              "routeName": "N4",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.7857142857142853
+            },
+            {
+              "routeName": "N2",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.7142857142857141
+            },
+            {
+              "routeName": "N6",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.5416666666666666
+            },
+            {
+              "routeName": "43",
+              "direction": "FARRAGUT SQUARE",
+              "frequency": 0.6904761904761904
+            },
+            {
+              "routeName": "N4",
+              "direction": "POTOMAC PARK",
+              "frequency": 0.07142857142857142
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.040289,
+            38.903925
+          ]
+        }
+      },
+      "1001325": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "16TH ST & M ST",
+          "stopId": "1001325",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "S2",
+              "direction": "SILVER SPRING STATION",
+              "frequency": 2.3809523809523774
+            },
+            {
+              "routeName": "S4",
+              "direction": "SILVER SPRING STATION",
+              "frequency": 2.1130952380952364
+            },
+            {
+              "routeName": "S9",
+              "direction": "SILVER SPRING STATION",
+              "frequency": 2.2678571428571423
+            },
+            {
+              "routeName": "S9",
+              "direction": "COLORADO + 16TH",
+              "frequency": 0.6428571428571428
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.036367,
+            38.905416
+          ]
+        }
+      },
+      "1001326": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "CONNECTICUT AVE NW & M ST NW",
+          "stopId": "1001326",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "42",
+              "direction": "MT PLEASANT VIA ADAMS MORGAN",
+              "frequency": 3.5238095238095197
+            },
+            {
+              "routeName": "L2",
+              "direction": "CHEVY CHASE CIRCLE",
+              "frequency": 1.7738095238095226
+            },
+            {
+              "routeName": "N4",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 0.7857142857142858
+            },
+            {
+              "routeName": "N2",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 0.6666666666666666
+            },
+            {
+              "routeName": "N6",
+              "direction": "FRIENDSHIP HEIGHTS",
+              "frequency": 0.5416666666666669
+            },
+            {
+              "routeName": "43",
+              "direction": "MT PLEASANT VIA ADAMS MORGAN",
+              "frequency": 0.4761904761904761
+            },
+            {
+              "routeName": "L2",
+              "direction": "BETHESDA",
+              "frequency": 0.08928571428571427
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.040811,
+            38.905454
+          ]
+        }
+      },
+      "1001392": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "20TH ST NW & NEW HAMPSHIRE AVE NW",
+          "stopId": "1001392",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "H1",
+              "direction": "POTOMAC PARK",
+              "frequency": 0.21428571428571427
+            },
+            {
+              "routeName": "L1",
+              "direction": "POTOMAC PARK",
+              "frequency": 0.21428571428571427
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.04499,
+            38.908348
+          ]
+        }
+      },
+      "1001434": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "P ST & 17TH ST",
+          "stopId": "1001434",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "G2",
+              "direction": "LEDROIT PARK - HOWARD UNIVERSITY",
+              "frequency": 1.4940476190476173
+            },
+            {
+              "routeName": "G2",
+              "direction": "14TH & P NW",
+              "frequency": 0.047619047619047616
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.038755,
+            38.909564
+          ]
+        }
+      },
+      "1001443": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "P ST & 17TH ST",
+          "stopId": "1001443",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "G2",
+              "direction": "GEORGETOWN UNIVERSITY",
+              "frequency": 1.5654761904761885
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.038235,
+            38.909721
+          ]
+        }
+      },
+      "1001461": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "P ST & 20TH ST",
+          "stopId": "1001461",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "D2",
+              "direction": "GLOVER PARK",
+              "frequency": 2.2261904761904754
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.044754,
+            38.909721
+          ]
+        }
+      },
+      "1002881": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "16TH ST & M ST",
+          "stopId": "1002881",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "S2",
+              "direction": "FEDERAL TRIANGLE",
+              "frequency": 2.2499999999999964
+            },
+            {
+              "routeName": "S4",
+              "direction": "FEDERAL TRIANGLE",
+              "frequency": 1.9702380952380933
+            },
+            {
+              "routeName": "S9",
+              "direction": "FRANKLIN SQUARE",
+              "frequency": 2.964285714285714
+            },
+            {
+              "routeName": "S1",
+              "direction": "POTOMAC PARK",
+              "frequency": 0.6785714285714285
+            },
+            {
+              "routeName": "S2",
+              "direction": "MCPHERSON SQUARE",
+              "frequency": 0.2857142857142857
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.036658,
+            38.905246
+          ]
+        }
+      },
+      "1002971": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "NEW HAMPSHIRE AVE NW & N ST NW",
+          "stopId": "1002971",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "L1",
+              "direction": "CHEVY CHASE CIRCLE",
+              "frequency": 0.21428571428571425
+            },
+            {
+              "routeName": "H1",
+              "direction": "BROOKLAND STATION",
+              "frequency": 0.14285714285714285
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.045397,
+            38.907435
+          ]
+        }
+      },
+      "1003476": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "15TH ST NW & K ST NW",
+          "stopId": "1003476",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "A9",
+              "direction": "MCPHERSON SQUARE",
+              "frequency": 0.3095238095238095
+            },
+            {
+              "routeName": "A9",
+              "direction": "LIVINGSTON VIA SOUTH CAPITOL",
+              "frequency": 0.2857142857142857
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.03448,
+            38.902319
+          ]
+        }
+      },
+      "1003702": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrobus",
+          "stopName": "H ST NW & 16TH ST  X",
+          "stopId": "1003702",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "X2",
+              "direction": "MINNESOTA AVE STATION",
+              "frequency": 3.767857142857138
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.03602,
+            38.900127
+          ]
+        }
+      },
+      "967111299": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Zipcar",
+          "stopName": "1105 18th St. NW",
+          "stopId": "967111299",
+          "transportationType": "carshare"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.04126,
+            38.90401
+          ]
+        }
+      },
+      "A02": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Metrorail",
+          "stopName": "FARRAGUT NORTH METRO STATION",
+          "stopId": "A02",
+          "transportationType": "subway",
+          "routes": [
+            {
+              "routeName": "Red",
+              "direction": "SHADY GROVE",
+              "frequency": 4.357142857142855
+            },
+            {
+              "routeName": "Red",
+              "direction": "GLENMONT",
+              "frequency": 3.238095238095236
+            },
+            {
+              "routeName": "Red",
+              "direction": "SILVER SPRING",
+              "frequency": 1.8988095238095226
+            },
+            {
+              "routeName": "Red",
+              "direction": "GROSVENOR",
+              "frequency": 0.5119047619047619
+            },
+            {
+              "routeName": "Red",
+              "direction": "FARRAGUT NORTH",
+              "frequency": 0.26785714285714285
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039502,
+            38.903297
+          ]
+        }
+      },
+      "0010": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Circulator",
+          "stopName": "K Street and Connecticut Avenue NW",
+          "stopId": "0010",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "GT-US",
+              "direction": "Georgetown",
+              "frequency": 0.041666666666666664
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.039222,
+            38.902611
+          ]
+        }
+      },
+      "0040": {
+        "type": "Feature",
+        "properties": {
+          "agencyName": "Circulator",
+          "stopName": "K Street and 16th Street NW",
+          "stopId": "0040",
+          "transportationType": "bus",
+          "routes": [
+            {
+              "routeName": "GT-US",
+              "direction": "Union Station",
+              "frequency": 0.041666666666666664
+            }
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.03679,
+            38.902459
+          ]
+        }
+      }
+    }
+  }
+}
